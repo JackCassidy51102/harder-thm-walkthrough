@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Never commit VM / disk / capture / archive artefacts
+*.iso
+*.vmdk
+*.vmem
+*.vmss
+*.vmx
+*.vmxf
+*.nvram
+*.zip
+
+# Never commit raw event logs or captures
+*.evtx
+*.pcap
+*.cap
+
+# Secrets
+.env
+*.pem
+*.key
+id_rsa*
